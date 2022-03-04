@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Contact</string>
+  </property>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>340</y>
+     <width>191</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:10px;
+background-color:#4267B2;
+color:white;
+font:11pt;
+border-left: none;
+border-right: 3px solid rgb(104, 104, 104);
+border-bottom: 5px solid rgb(104, 104, 104);
+}
+
+QPushButton:hover{
+background-color:rgb(51, 80, 139);
+border-left: none;
+border-right: 3.5px solid rgb(104, 104, 104);
+border-bottom: 4.5px solid rgb(104, 104, 104);
+}
+
+QPushButton:pressed{
+background-color: rgb(0, 86, 129);
+border-bottom: none;
+}</string>
+   </property>
+   <property name="text">
+    <string>กลับหน้าจอหลัก</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
